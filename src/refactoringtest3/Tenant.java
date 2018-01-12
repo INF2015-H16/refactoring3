@@ -42,7 +42,7 @@ public class Tenant extends Resident{
         this.tenant_id = tenant_id;
     }
 
-    public void isSupervisedBy(Owner owner) {
+    public void isRentedBy(Owner owner) {
         owner.tenants.add(this);
     }
     
