@@ -18,11 +18,11 @@ public class Tenant extends Resident{
     String firstName;
     Date dateBirth;
 
-    public Tenant(String n, String p, Date d) {
-        this.lastName = n;
-        this.firstName = p;
-        this.dateBirth = d;
-        this.tenant_id = createTenantId(n, p, d);
+    public Tenant(String ln, String fn, Date db) {
+        this.lastName = ln;
+        this.firstName = fn;
+        this.dateBirth = db;
+        this.tenant_id = createTenantId(ln, fn, db);
     }
 
     public String createTenantId(String lName, String fName, Date date) {
