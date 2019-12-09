@@ -24,6 +24,6 @@ public class Owner extends Resident {
     }
 
     public void setPhotoUrl(String photoName) {
-        this.photoUrl = "/photos/professors/mad/" + photoName;
+        this.photoUrl = "/photos/owners/mad/" + photoName;
     }
 }
